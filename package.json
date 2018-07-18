@@ -1,0 +1,50 @@
+{
+  "name": "hello-mobx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "async-validator": "^1.8.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bluebird": "^3.5.1",
+    "classnames": "^2.2.6",
+    "clean-webpack-plugin": "^0.1.19",
+    "crypto": "^1.0.1",
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.17.10",
+    "mkdirp": "^0.5.1",
+    "path-to-regexp": "^2.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "shelljs": "^0.8.2",
+    "style-loader": "^0.19.1",
+    "through-gulp": "^0.5.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-concat-plugin": "^3.0.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.pro.config.js",
+    "dll": "webpack --config webpack.dll.config.js",
+    "add.component": "node ./utils/add-component.js"
+  }
+}
